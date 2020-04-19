@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="myFirstStyle.css" />
+    <script src="data.js"></script>
+</head>
+<body>
+    <div id="root">
+      <div id="title">GOOGLE</div>
+      <ul id="signUpBox">
+        <li class="para" id="id-para">
+            <div id="username">*아이디</div>
+            <span class="usernameBox">
+              <input type="text" class="user-info" id="id-check">
+              <span id="email">@google.com</span>
+            </span>
+            <div class="check-comment" id="id-comment"></div>
+        </li>
+        <li class="para">
+            <div id="userId">*비밀번호</div>
+            <span class="usernameBox" >
+                <input type="password" class="user-info" id="password-search">
+            </span>
+            <div class="check-comment" id="password-comment"></div>
+        </li>
+        <li class="para">
+            <div id="userId">*비밀번호 확인</div>
+            <span class="usernameBox">
+                <input type="password" class="user-info" id="password-double-check">
+            </span>
+            <div class="check-comment" id="password-double-check-comment"></div>
+        </li>
+        <li class="para">
+            <div id="userId">*이름</div>
+            <span class="usernameBox">
+                <input type="text" class="user-info" id="name-input">
+            </span>
+            <div class="check-comment" id="name-input-comment"></div>    
+        </li>
+        <li id = "parent-birth" class="para">
+            <div id="userId">*생년월일</div>
+            <span  id='birth-pos'class="birth ">
+                <input type="text" id="birthday"class="birth-input" placeholder="년(4자)">
+            </span>
+            <span class="birth birth-margin">
+                <select id="mm">
+                    <option value="월">월</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </span>
+            <span class="birth birth-margin">
+                <input type="text" id ="dd" class="birth-input" placeholder="일">
+            </span>
+            <div></div>
+        </li>
+        <li class="para">
+            <div id="userId">*성별</div>
+            <span class="usernameBox" id="gender-box">
+                <select id="gender" >
+                    <option value="성별">성별</option>
+                    <option value="남자">남자</option>
+                    <option value="여자">여자</option>
+                </select>
+            </span>
+            <div></div>
+        </li>
+        <li class="para">
+            <div id="userId">본인확인이메일</div>
+            <span class="usernameBox">
+                <input type="text" class="user-info">
+            </span>
+            <div></div>
+        </li>
+        <li class="para">
+            <div id="userId">휴대전화</div>
+            <span class="usernameBox">
+                <input type="text" class="user-info", id="tel-input">
+            </span>
+            <div class="check-comment" id="tel-input-comment"></div>
+        </li>
+        <button id="join-btn">가입하기</button>
+        
+      </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

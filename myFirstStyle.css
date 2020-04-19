@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    background-color:rgb(245,246,247)
+}
+span{
+    background-color: white;
+}
+#root {
+    margin-left: 284px;
+}
+#title {
+    font-weight: bold;
+    padding: 10px;
+    width: 700px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#commentParent{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    margin-bottom: 120px;
+}
+#signUpBox{
+    height: 1200px;
+    padding: 20px;
+    border: 1px solid gray;
+    width: 700px;
+
+}
+.para{
+    margin: 35px;
+}
+#username {
+    margin: 17px;
+    position: relative;
+    right: 27px;
+}
+.usernameBox {
+    height: 51px;
+    width: 460px;
+    display: inline-block;
+    border: 1px solid rgb(176,180,182);
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+#email{
+    float: right;
+    font-size: 13px;
+    color: gray;
+}
+.user-info {
+    box-sizing: border-box;
+    border: none;
+    width: 300px;
+    height: 25px;
+    font-size: 15px;
+}
+#userId{
+    margin-bottom: 12px;
+}
+.birth {
+    border: 1px solid rgb(179,179,182);
+    width: 150px;
+    height: 51px;
+    display: inline-block;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    font-size: 15px;
+}
+.birth-input{
+    border: none;
+    width: 116px;
+    height: 29px;
+}
+#birth-pos {
+    position: relative;
+    bottom: 1px;
+}
+.birth-margin{
+    margin-left: 15px;
+}
+#mm {
+    width: 117px;
+    height: 29px;
+    font-size: 15px;
+    border: none;
+}
+#gender-box{
+    padding-left: 14px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#gender{
+    font-size: 15px;
+    width: 437px;
+    height: 29px;
+    border: none;
+}
+.check-comment{
+    font-size: 12px;
+    color: red;
+}
+#join-btn {
+    position: relative;
+    left: 196px;
+    width: 179px;
+    height: 50px;
+    font-size: 24px;
+    background-color: beige;
+    color: steelblue;
+}
